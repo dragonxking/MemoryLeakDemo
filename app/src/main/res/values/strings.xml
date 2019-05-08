@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MemoryLeakDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="helper_text">Rotate the screen 5 times to create 5 leaks and trigger a foreground
+        heap dump. Or press back to cause a leak and trigger a background heap dump.
+    </string>
+</resources>
