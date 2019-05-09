@@ -1,4 +1,4 @@
-package com.example.leakcanary
+package demo.jilong.memoryleakdemo
 
 import android.util.Log
 import android.view.View

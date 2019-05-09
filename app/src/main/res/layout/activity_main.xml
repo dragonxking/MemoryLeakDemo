@@ -6,32 +6,14 @@
         android:layout_height="match_parent"
         android:layout_margin="16dp">
 
-    <TextView
-            android:id="@+id/helper_text"
-            android:layout_width="match_parent"
+    <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/helper_text"/>
+            android:text="Java Activity"
+            android:id="@+id/javaact"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="App"
-            android:id="@+id/appBtn"/>
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="singleton"
-            android:id="@+id/singletonBtn"/>
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="thread"
-            android:id="@+id/threadBtn"/>
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="inner class"
-            android:id="@+id/innerClass"/>
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="static inner class"
-            android:id="@+id/staticinnerClass"/>
+            android:text="Kotlin Activity"
+            android:id="@+id/kotlinact"/>
 
 </LinearLayout>
