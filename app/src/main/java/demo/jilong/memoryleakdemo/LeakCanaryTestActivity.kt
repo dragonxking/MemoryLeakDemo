@@ -16,6 +16,7 @@
 package demo.jilong.memoryleakdemo
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
@@ -59,6 +60,22 @@ class LeakCanaryTestActivity : Activity() {
             //不会出现内存泄漏
             handler.postDelayed(object : Runnable{
                 override fun run() {
+                    Log.d("LeakCanaryTestActivity", "handler.postDelayed object : Runnable")
+                }
+            },10000L)
+        }
+        handlerBtn3.setOnClickListener {
+            //泄漏
+            handler.postDelayed({
+                leakedView.text = "ref textview in handler message <amada>"
+                Log.d("LeakCanaryTestActivity", "handler.postDelayed lamada runnable")
+            },10000L)
+        }
+        handlerBtn4.setOnClickListener {
+            //泄漏
+            handler.postDelayed(object : Runnable{
+                override fun run() {
+                    leakedView.text = "ref textview in handler message <object : Runnable>"
                     Log.d("LeakCanaryTestActivity", "handler.postDelayed object : Runnable")
                 }
             },10000L)
