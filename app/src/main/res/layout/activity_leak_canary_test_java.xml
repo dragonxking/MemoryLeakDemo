@@ -34,4 +34,9 @@
             android:text="[安全]postDelay Static Runnable + 弱引用View"
             android:id="@+id/handlerBtnStatic3"/>
 
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="handler Test"
+            android:id="@+id/handlerTest"/>
+
 </LinearLayout>
