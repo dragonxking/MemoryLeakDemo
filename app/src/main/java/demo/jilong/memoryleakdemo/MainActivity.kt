@@ -15,5 +15,8 @@ class MainActivity : Activity() {
         javaact.setOnClickListener {
             this.startActivity(Intent(this,LeakCanaryTestJActivity::class.java))
         }
+        handlerActivity.setOnClickListener {
+            this.startActivity(Intent(this,HandlerThreadTestActivity::class.java))
+        }
     }
 }

@@ -4,21 +4,15 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
         android:layout_margin="16dp">
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Java Activity"
-            android:id="@+id/javaact"/>
-
+            android:text="looper thread test"
+            android:id="@+id/looperThread"/>
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin Activity"
-            android:id="@+id/kotlinact"/>
-
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Handler Activity"
-            android:id="@+id/handlerActivity"/>
-
+            android:text="handler thread test"
+            android:id="@+id/handlerThread"/>
 </LinearLayout>
