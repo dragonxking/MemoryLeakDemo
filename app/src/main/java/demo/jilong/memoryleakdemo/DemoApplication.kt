@@ -32,4 +32,6 @@ class DemoApplication : Application() {
         }
         LeakCanary.install(this)
     }
+
+
 }

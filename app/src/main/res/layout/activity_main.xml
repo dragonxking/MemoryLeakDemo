@@ -1,4 +1,3 @@
-
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
@@ -20,5 +19,37 @@
             android:layout_height="wrap_content"
             android:text="Handler Activity"
             android:id="@+id/handlerActivity"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start Activity for result"
+            android:id="@+id/result"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show fragment 1"
+            android:id="@+id/fragment"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show fragment 2"
+            android:id="@+id/fragment2"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/fragment_holder"
+            android:background="#33ff0000"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="10dp"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/fragment_holder2"
+            android:background="#330000ff"/>
 
 </LinearLayout>
